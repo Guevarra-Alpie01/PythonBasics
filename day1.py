@@ -51,4 +51,28 @@ ref = "new ref"         #declare new value for ref so the declaration above wil 
 print(f"{ref}") 
 copy_ref = ref
 print(copy_ref)         #copy the new ref
-    
+
+
+#Logical Operators
+a=True
+b=True
+
+print(a and b)   #returns true if both statements are true so the result of this is true 
+print(a or b)    #returns true if one of the statements is true so the result of this is true
+print(not b)    #negate the value of b, the value of b is true so the result is false
+print(not a)    #negate the value of a, the value of a is true so the result is false
+
+#assignment operators
+a = 10
+b = a
+print(b)    #print 10
+
+b += a      #operator  b=10 + a=10 = 20
+print(b)    #result is 20 
+
+b -= a      #20 - 10
+print(b)    # result is 10
+
+b *= a      #now b is 10 multiplied by 10
+print(b)    # result is 100
+
