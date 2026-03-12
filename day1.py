@@ -79,7 +79,25 @@ print(b)    # result is 100
 
 #Operands
 a=20
-b=20
+b="pasabit"
 
-print(a is b)
-print(a is not b)
+print(a is b)           # is will return true if both operands are equal on there value
+print(a is not b)       #is not will return true if both operands are not equal on there value
+
+
+#membership operators 
+
+print("MEMBERSHIP OPERATORS")
+x = 24
+y = 20
+list = [10, 20, 30, 40, 50]
+
+if (x not in list):
+    print("x is NOT present in given list")
+else:
+    print("x is present in given list")
+
+if (y in list):
+    print("y is present in given list")
+else:
+    print("y is NOT present in given list")
