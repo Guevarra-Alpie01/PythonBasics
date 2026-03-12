@@ -76,3 +76,10 @@ print(b)    # result is 10
 b *= a      #now b is 10 multiplied by 10
 print(b)    # result is 100
 
+
+#Operands
+a=20
+b=20
+
+print(a is b)
+print(a is not b)
