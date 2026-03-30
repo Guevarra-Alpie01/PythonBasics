@@ -49,11 +49,6 @@ new = Color("pink", "rainbow")              #create an object of the class and p
 print(f"first color: {new.color1}")         #print the value of the instance variable color1 using the object new
 print(f"second color: {new.color2}")        #print the value of the instance variable color2 using the object new
 
-
-
-#create another sample of  class 
-
-
 class House:
     def __init__(self, door, window):
         self.door = door
@@ -68,7 +63,7 @@ print(f"builder of door {builder.door}")
 print(f" builder of window:{builder.window}")
 
 
-                                    #Conditional statament 
+                                    #Conditional
                                     #nested if statement 
 
 breed1 = 40
